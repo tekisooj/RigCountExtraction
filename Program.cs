@@ -77,7 +77,7 @@ public class Program
 
 
             int numOfNewRows = 29;
-        Workbook wb = new Workbook("C:\\Users\\teodo\\Documents\\RigCountExtraction\\RigCountExtractionTest\\Worldwide Rig Count Dec 2022.xlsx");
+        Workbook wb = new Workbook("WorldwideRigCounts.xlsx");
         Worksheet ws = wb.Worksheets[0];
 
         int beginning = 0;
